@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    font-family: 'Arial';
+}
+
+body {
+    background: url(../img/material-design-grey-po-alt.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background: #2b2c3b;
+    border-bottom: 1px solid #04fa04;
+    box-sizing: border-box;
+}
+
+header form {
+    margin-top: 22px;
+}
+
+.title {
+    font-family: 'Merienda One', cursive;
+    font-size: 24pt;
+    color: #04fa04;
+    margin-right: 275px;
+    margin-top: 15px;
+}
+
+header form .search {
+    text-align: left;
+    border-color: #04fa04;
+}
+
+.btn-add, .btn-back {
+    color: #04fa04;
+    font-size: 40px;
+    display: block;
+    margin-top: 5px;
+}
+
+.card {
+    border-color: #04fa04;
+}
+
+.card .action a {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+.card .action a:first-child:hover {
+    color: #04fa04;
+}
+
+.card .action a:last-child {
+    color: red;
+}
+
+.register main input, .register main textarea {
+    border-color: #04fa04;
+}
+
+.register main button {
+    background-color:#2b2c3b;
+    border-color:#04fa04;
+    color: #04fa04;
+}
+
+.register main button:hover {
+    background-color: #04fa04;
+    border-color:#04fa04;
+    color: #fff;
+}
+
+.error {
+    border-color: red !important;
+}
+
+.register label {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20pt;
+    letter-spacing: 1px;
+}
